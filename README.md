@@ -1,6 +1,6 @@
-# 💰 Consolidador de Extratos Bancários (BRB)
+# 💰 Consolidador de Relatórios Financeiros
 
-Uma aplicação web desenvolvida em **Python** e **Streamlit** para automatizar o tratamento, limpeza e consolidação de planilhas financeiras do Banco BRB.
+Uma aplicação web desenvolvida em **Python** e **Streamlit** para automatizar o tratamento, limpeza e consolidação de planilhas financeiras de um cliente específico.
 
 O sistema processa arquivos brutos, corrige formatações quebradas, separa dados de fornecedores (CNPJ/Nome) e exporta um relatório unificado pronto para análise contábil.
 
