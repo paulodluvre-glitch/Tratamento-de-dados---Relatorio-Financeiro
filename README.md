@@ -1,2 +1,26 @@
-# Tratamento-de-dados---Relatorio-Financeiro
-Automação em Python (Streamlit/Pandas) para tratar extratos brutos do BRB. O script reconstrói históricos quebrados em várias linhas, identifica contas (Principal/Mineração) pelo nome do arquivo, extrai CNPJs via Regex e consolida tudo em um único Excel padronizado. Ideal para agilizar a conciliação contábil.
+# 💰 Consolidador de Extratos Bancários (BRB)
+
+Uma aplicação web desenvolvida em **Python** e **Streamlit** para automatizar o tratamento, limpeza e consolidação de planilhas financeiras do Banco BRB.
+
+O sistema processa arquivos brutos, corrige formatações quebradas, separa dados de fornecedores (CNPJ/Nome) e exporta um relatório unificado pronto para análise contábil.
+
+## 🚀 Funcionalidades
+
+- **Upload Múltiplo:** Aceita vários arquivos Excel (.xlsx) de uma vez.
+- **Identificação Automática:** Reconhece a conta e o código contábil baseando-se no nome do arquivo.
+- **Limpeza de Dados:**
+  - Remove cabeçalhos e rodapés inúteis.
+  - Reconstrói descrições e históricos que foram "quebrados" em múltiplas linhas pelo banco.
+  - Separa automaticamente o **CNPJ** do **Nome do Fornecedor**.
+- **Exportação:** Gera um único arquivo Excel consolidado e padronizado.
+
+## 🛠️ Pré-requisitos
+
+Para rodar o projeto localmente, você precisa ter o [Python](https://www.python.org/) instalado.
+
+## 📦 Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
+   cd NOME-DO-REPO
