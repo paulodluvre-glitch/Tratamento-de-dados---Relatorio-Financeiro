@@ -18,9 +18,5 @@ O sistema processa arquivos brutos, corrige formatações quebradas, separa dado
 
 Para rodar o projeto localmente, você precisa ter o [Python](https://www.python.org/) instalado.
 
-## 📦 Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
-   cd NOME-DO-REPO
+## Link web:
+[ https://tratamento-de-dados---relatorio-financeiro-wh9ytxpqha6ynnmlmsa.streamlit.app/ ]
